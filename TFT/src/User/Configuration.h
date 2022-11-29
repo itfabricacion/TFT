@@ -1190,7 +1190,7 @@
  * If not enabled, you can set the desired starting Z height
  * in Marlin fw (MANUAL_PROBE_START_Z in Configuration.h).
  */
-#define MBL_START_Z  // Default: uncommented (enabled)
+//#define MBL_START_Z  // Default: uncommented (enabled)
 
 /**
  * M601: Pause Print

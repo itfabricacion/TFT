@@ -235,7 +235,11 @@ void menuMBL(void)
         }
         else
         {
-          storeCmd("G29 S2\n");  // save Z height and move to next mesh point
+          if(mblPoint < 9) {
+            storeCmd("G29 S2\n");  // save Z height and move to next mesh point
+          } else {
+            storeCmd("G29 S2\nM500");  // último punto
+          }
 
           #ifdef MBL_START_Z
             probeHeightStart(infoSettings.level_z_pos, false);  // raise nozzle
