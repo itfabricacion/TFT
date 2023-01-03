@@ -1167,8 +1167,8 @@
  * Set the maximum number of grid points per dimension.
  *   Value range: [min: 1, max: 15]
  */
-#define MESH_GRID_MAX_POINTS_X 15  // Default: 15
-#define MESH_GRID_MAX_POINTS_Y 15  // Default: 15
+#define MESH_GRID_MAX_POINTS_X 3  // Default: 15
+#define MESH_GRID_MAX_POINTS_Y 3  // Default: 15
 
 /**
  * Bed Leveling Type
